@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Header logoSrc={'../../src/assets/images/Logo.png'} title={'Калькулятор стоимости услуг на внедрение SberCRM'} />
-        <СonstructorCalculator />
+        
       </>
     ),
   },
