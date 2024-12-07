@@ -1,0 +1,65 @@
+.service {
+    display: grid;
+    grid-template-columns: 1fr 8fr 3fr 1fr;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    gap: 10px;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    justify-self: start; /* Aligns the name to the left within its grid cell */
+  }
+
+  .service-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+  
+  .service-name {
+    width: 450px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .service-price {
+    color: #555;
+  }
+  
+  .service-link {
+    color: #007bff;
+    text-decoration: underline;
+    margin-top: 8px;
+  }
+  
+  .service-add-btn {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    border: 1px solid #454545;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    padding: 0;
+
+  }
+
+  .service-add-btn:hover {
+    background-color: #218838;
+  }
