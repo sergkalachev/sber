@@ -9,8 +9,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: (React.createElement(React.Fragment, null,
-            React.createElement(Header, { logoSrc: '../../src/assets/images/Logo.png', title: 'Калькулятор стоимости услуг на внедрение SberCRM' }),
-            React.createElement(СonstructorCalculator, null))),
+            React.createElement(Header, { logoSrc: '../../src/assets/images/Logo.png', title: 'Калькулятор стоимости услуг на внедрение SberCRM' }))),
     },
     {
         path: "/calculator",
